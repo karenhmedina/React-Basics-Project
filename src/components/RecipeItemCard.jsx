@@ -20,7 +20,11 @@ export const RecipeItemCard = ({ item, clickFn }) => {
 
   return (
     <Card
-      height={{ base: "fit-content", md: "435", lg: "420" }}
+      display="flex"
+      flexDirection="column"
+      justifyContent="space-between"
+      height="100%"
+      minHeight="420px"
       bgColor="white"
       borderRadius="xl"
       variant="elevated"
@@ -34,8 +38,8 @@ export const RecipeItemCard = ({ item, clickFn }) => {
           borderTopRadius="xl"
         ></Image>
       </AspectRatio>
-      <CardBody>
-        <Stack>
+      <CardBody display="flex" flexDirection="column" flex="1">
+        <Stack spacing={2} flex="1">
           <Text
             color="gray.500"
             textAlign="center"
