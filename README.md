@@ -1,20 +1,20 @@
 # Recipe App
 
 ## Project Overview
-The **Recipe App** is a React-based application designed to help users search for recipes that accommodate their dietary preferences and allergies. Built as a project for my React Basics course.
+The **Recipe App** is a React-based application designed to help users search for recipes that accommodate their dietary preferences and allergies. This project was built as part of my React Basics course with the goal of practicing key concepts such as component-based architecture, state management with useState, event handling, and responsive design.
 
 ## Technologies Used
-- CSS, JavaScript, React
+- React, JavaScript, CSS
 - Chakra UI
 
 ## Features
-- Search functionality: Search recipes by title or dietary labels (vegan, vegetarian, gluten-free, etc.).
+- Search functionality: Filter recipes by title or health labels (vegan, vegetarian, gluten-free, etc.) in real time.
 - Responsive design: Works smoothly across desktop and mobile devices.
 
 ## Usage
 - View recipes: The main screen shows an overview of available recipes.
 - Search recipes: Use the search input to filter recipes by title or health labels.
-- View recipe details: Click on any recipe card to see detailed information.
+- View recipe details: Click on any recipe card to see detailed information such as ingredients and nutritional information.
 
 ## Screenshots
 ### Recipe list page
